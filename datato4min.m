@@ -26,7 +26,7 @@ lfpdata = lfpdataread(:, 1:n_keep); %first4mins
 %lfpdata = lfpdataread(:, 2*n_keep+1:3*n_keep); %from 8-12mins
 %%
 %save new data
-save('pt5__5_5_awake_th2_4mins1.mat', 'lfpdata', '-v7.3');
+save('pt5_5_5_awake_th2_4mins1.mat', 'lfpdata', '-v7.3');
 %%
 clc
 clear
